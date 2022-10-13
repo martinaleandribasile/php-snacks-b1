@@ -17,7 +17,7 @@ if (isset($_GET['mail']) && strpos($email,  '.') && strpos($email, '@')) {
 }
 if (isset($_GET['age']) && is_numeric($age)) {
 
-    $age_check = true;;
+    $age_check = true;
 }
 
 if ($name_check === true && $email_check === true && $age_check === true) {
